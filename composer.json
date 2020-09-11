@@ -1,0 +1,22 @@
+{
+  "name": "vbifial/noverify-yii2-test",
+  "type": "project",
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.2",
+    "yiisoft/yii2": "~2.0.6"
+  },
+  "require-dev": {},
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
